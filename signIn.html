@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Login form</title>
+    <link rel="stylesheet" href="css/signInStyle.css">
+    <!--FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+     
+ 
+
+<!-----Sign In form starts from here------>
+<div class="container signIn">
+    <div class="myCard">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="myLeftCtn">
+                    <form action="connect.php" method="POST" class="myForm text-center">
+                        <header>Create New Account</header>
+                        <div class="form-group">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        <input class="myInput" type="text" name="Username" id="username" placeholder="Username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input class="myInput" type="email" name="Email" id="email" placeholder="E-mail" required>
+                    </div>
+
+                    <div class="form-group">
+                        <i class="fa fa-key" aria-hidden="true"></i>
+                        <input class="myInput" type="password" name="Password" id="password" placeholder="Password" required>
+                    </div>
+
+                    <input type="submit" name="" id="" class="btn" value="Sign Up">
+
+                    </form>
+                </div>
+            </div>
+        
+            <div class="col-md-6">
+                <div class="myRightCtn">
+                    <div class="box">
+                        <header>Already sign up?</header>
+                        <p>If you already sign up and create your account, then you can login yourself.</p>
+                       <a href="login.html"><input type="button" name="" id="" class="butt_out" value="Go to Sign in"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

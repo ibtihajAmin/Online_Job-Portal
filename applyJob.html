@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--Animate.Css cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css">
+
+<!--FONT AWESOME CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<link rel="stylesheet" href="css/Index.css">
+<link rel="stylesheet" href="style.css">
+    <title>Online Job Portal</title>
+</head>
+<body>
+
+  <!----Navigation Bar starts from here------>
+    <section class="navigation">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_top">
+        <div class="container">       
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="postJob.html">Post a Job</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Job Catagories
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="frontEndJob.html">Front-End Developer</a>
+                        <a class="dropdown-item" href="backEndJob.html">Backend Developer</a>
+                        <a class="dropdown-item" href="swEngineerJob.html">Software Enginner</a>
+                        <a class="dropdown-item" href="projectManagerJob.html">Project Manager</a>
+                        <a class="dropdown-item" href="othersJob.html">Others</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="signIn.html">Sign In/Up</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+    </section>
+<!----Navigation Bar ends here------>
+
+
+<div class="container"> <!----'Post a job' contents include here---->
+    <div class="row">
+        <div class="post_job_content">
+            <h2 class="post_job_head">Apply Your Dream Job</h2>
+             <p class="post_job_des">Complete the required information given below. After giving the information your upload your CV. We will store your information in database</p>
+        </div>
+        
+
+    </div>
+    
+</div>
+
+<!--'Post a Job' section is started from here -->
+<div class="container signIn container2">
+  <div class="myCard">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="myLeftCtn">
+                  <form action="" method="POST" class="myForm text-center">
+                      <div class="form-group">
+                          <i class="fa fa-info" aria-hidden="true"></i>
+                      <input class="myInput" type="text" name="jobid" id="jobid" placeholder="Job Id" required>
+                  </div>
+
+                  <div class="form-group">
+                      <i class="fa fa-info" aria-hidden="true"></i>
+                      <input class="myInput" type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                  </div>
+
+                  <div class="form-group">
+                      <i class="fa fa-info" aria-hidden="true"></i>
+                      <input class="myInput" type="email" name="email" id="email" placeholder="Email" required>
+                  </div>
+
+                  <div class="form-group">
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <input class="myInput" type="text" name="mobileno" id="mobileno" placeholder="Mobile Number" required>
+                  </div>
+
+                  <div class="form-group">
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <h5>Upload Your Cv</h5>
+                    <input class="myInput" type="file" name="cvfile" id="cvfile" required>
+                  </div>
+
+                  <input type="submit" name="" id="" class="btn2" value="Apply Job">
+
+                  </form>
+              </div>
+          </div>
+      
+
+
+      </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
